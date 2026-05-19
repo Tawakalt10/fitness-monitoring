@@ -4,7 +4,7 @@ import { FaPlus } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div>
-        <nav className='fixed w-full flex justify-between items-center  backdrop-blur-lg  bg-olive-100 h-15'>  
+        <nav className='w-full flex justify-between items-center  backdrop-blur-lg  bg-olive-100 h-15'>  
         <div className='flex items-center  m-4 '>
              <h4 className='mr-4 uppercase text-sm '>Kinetic. </h4>
            <div className=''>
