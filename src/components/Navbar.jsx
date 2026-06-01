@@ -8,9 +8,9 @@ const Navbar = () => {
         <div className='flex items-center  m-4 '>
              <h4 className='mr-4 uppercase text-sm '>Kinetic. </h4>
            <div className=''>
-              <a href="#" className='p-2 font-bold'>Dashboard</a>
-            <a href="#" className='p-2 text-gray-500'>Libary</a>
-            <a href="#" className='p-2  text-gray-500'>Story</a>
+              <a href="#" className='p-2 font-bold  hover:text-lime-600'>Dashboard</a>
+            <a href="#" className='p-2 text-gray-500 hover:text-lime-600'>Libary</a>
+            <a href="#" className='p-2  text-gray-500 hover:text-lime-600'>Story</a>
            </div>
           
         </div>
