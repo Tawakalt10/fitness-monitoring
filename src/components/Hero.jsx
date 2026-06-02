@@ -1,5 +1,7 @@
 import React from 'react'
 import ActivityChart from './Charts/ActivityChart'
+import CaloriesChart from './Charts/BarChart'
+import WeightChart from './Charts/LineChart'
 
 const Hero = () => {
   return (
@@ -10,6 +12,12 @@ const Hero = () => {
     </p>
 
     <ActivityChart />
+
+    <div className='charts-container grid grid-cols-2 p-2'  > 
+    <CaloriesChart />
+    <WeightChart />
+    </div>
+     
     </div>
   )
 }

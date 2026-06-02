@@ -28,7 +28,7 @@ function CaloriesChart() {
         <Tooltip />
         <Bar
           dataKey="calories"
-          fill="#4F46E5"
+          fill="#bef264"
           radius={[6, 6, 0, 0]}
         />
       </BarChart>
