@@ -4,14 +4,17 @@ import { FaCircle } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div>
-        
+
+    <div className='grid  lg:grid-cols-2 ' >
+        <div>
+
+       
         <div className='flex justify-between p-3 m-4 mt-8'>
             <h4 className='text-xl'>Recent Workout</h4>
             <button className='text-gray-500  hover:text-black '>View all</button>
         </div>
         
-        <div className='flex  mx-10 lg:w-[60%] h-20 pb-4 mb-4 bg-gray-100 rounded-2xl'>
+        <div className='flex  mx-10 lg:w-[80%] h-20 pb-4 mb-4 bg-gray-100 rounded-2xl'>
              < FaDumbbell  className='text-3xl mx-4 my-3 bg-gray-300  p-1.5 rounded-2xl'/> 
              <FaArrowDown/>
             <div className='p-3 mx-10'>
@@ -26,7 +29,7 @@ const Main = () => {
             </div>
         </div>
 
-         <div className='flex  mx-10 lg:w-[60%] h-20 pb-4 mb-4 bg-gray-100 rounded-2xl'>
+         <div className='flex  mx-10 lg:w-[80%] h-20 pb-4 mb-4 bg-gray-100 rounded-2xl'>
              <FaPause className='text-3xl  mx-4 my-3 bg-gray-300  p-1.5 rounded-2xl'/> 
             <div className='p-3 mx-10'>
                 <h4 className='mx-2'> AMRAP Conditioning</h4>
@@ -40,7 +43,7 @@ const Main = () => {
             </div>
         </div>
 
-         <div className='flex  mx-10 lg:w-[60%] h-20 pb-4 mb-4 bg-gray-100 rounded-2xl'>
+         <div className='flex  mx-10 lg:w-[80%] h-20 pb-4 mb-4 bg-gray-100 rounded-2xl'>
              < FaHeart className='text-3xl mx-4 my-3 text-g bg-gray-300  p-1.5 rounded-2xl'/> 
             <div className='p-3 mx-10'>
                 <h4 className='mx-2'>Zone 2 Recovery Run</h4>
@@ -53,10 +56,21 @@ const Main = () => {
         
             </div>
         </div>
+        </div>
+        <div className='grid grid-cols-2 p-3 mt-8  '>
+            <div className="bg-[url('/images/main-img-1.jpg')]    lg:w-[300px] lg:p-8  bg-cover  rounded-4xl h-110  hover:scale-98 hover:opacity-95 ">
+                <button className='bg-gray-400 w-30 h-7 rounded-2xl text-sm text-white cursor-pointer'> HYPERTROPHY </button>
+              
+             <h4 className='my-75 bg-gray-400 w-30 h-7 text-sm p-0.5 rounded-xl pl-3' >Strength Basics</h4>
+            </div>
 
-        <div className='grid grid-cols-2 p-3  '>
-          <img src="/images/main-img-1.jpg" alt="gym image" className= ' opacity-80 hover:opacity-100 hover:scale-x-102' />
-          <img src="/images/main-img-2.jpg" alt="gym image" className= 'opacity-80 hover:opacity-100 hover:scale-x-102' />
+            <div  className="bg-[url('/images/main-img-2.jpg')]   lg:w-[300px] lg:p-8 bg-cover rounded-4xl  h-110 hover:scale-98 hover:opacity-95 transition-all">
+               <button className='bg-gray-400 w-30 h-7 rounded-2xl text-sm text-white cursor-pointer'> HYPERTROPHY </button>
+              
+             <h4 className='my-75 bg-gray-400 w-30 h-7 text-sm p-0.5 rounded-xl pl-3' >Strength Basics</h4>
+            </div>
+         
+          
         </div>
         </div>
   )
