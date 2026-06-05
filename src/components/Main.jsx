@@ -65,9 +65,9 @@ const Main = () => {
             </div>
 
             <div  className="bg-[url('/images/main-img-2.jpg')]   lg:w-[300px] lg:p-8 bg-cover rounded-4xl  h-110 hover:scale-98 hover:opacity-95 transition-all">
-               <button className='bg-gray-400 w-30 h-7 rounded-2xl text-sm text-white cursor-pointer'> HYPERTROPHY </button>
+               <button className='bg-gray-400 w-30 h-7 rounded-2xl text-sm text-white cursor-pointer'> ENDURANCE </button>
               
-             <h4 className='my-75 bg-gray-400 w-30 h-7 text-sm p-0.5 rounded-xl pl-3' >Strength Basics</h4>
+             <h4 className='my-75 bg-gray-400 w-30 h-7 text-sm p-0.5 rounded-xl pl-3' >Zone 2 flow</h4>
             </div>
          
           
