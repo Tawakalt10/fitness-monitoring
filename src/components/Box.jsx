@@ -2,6 +2,7 @@ import React from 'react'
 import boxdata from "./data/boxData"
 import gymInfo from './data/boxData'
 import { FaLightbulb,  } from 'react-icons/fa'
+import Nutrition from './pages/Nutrition'
 const Box = () => {
   return (
     <div>
@@ -23,6 +24,8 @@ const Box = () => {
             ) )}
           
         </div>
+
+        <Nutrition />
     </div>
   )
 }
