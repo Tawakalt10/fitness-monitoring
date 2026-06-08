@@ -42,7 +42,7 @@ const foodInfo = {
     },
 
      {
-        id: 1,
+        id: 2,
         time: "13:15",
         food: "Chicken bowl",
         energy:"420kcal"

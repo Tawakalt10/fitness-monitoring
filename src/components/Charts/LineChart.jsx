@@ -18,7 +18,7 @@ const weightData = [
 
 function WeightChart() {
   return (
-    <ResponsiveContainer width="100%" height={300}>
+    <ResponsiveContainer width="70%" height={300}>
       <LineChart data={weightData}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="week" />
