@@ -9,7 +9,7 @@ const Nutrition = () => {
   return (
     <div>
         <div className='grid lg:grid-cols-2  md:grid-cols-1'>
-  <div className='lg:w-[800px]  ml-4 mr-4 h-70 mb-4 bg-gray-200  p-1.5 rounded-2xl'>
+  <div className='lg:w-[800px]  ml-4 mr-4 h-70 mb-4 bg-gray-100  p-1.5 rounded-2xl'>
          <div className=' mt-2 mx-4 flex justify-between'>
          <h4 className=' uppercase text-sm text-gray-500 font-bold'> Nutrition today</h4>
          <p className='text-gray-500  text-sm font-bold'>1,840 / 2,400 kcal</p>
@@ -54,7 +54,7 @@ const Nutrition = () => {
     </div>
    </div>
 
-   <div className=' lg:w-[250px]  rounded-2xl lg:mx-70 h-[30] bg-gray-200 '>
+   <div className=' lg:w-[250px]  rounded-2xl lg:mx-70 h-[30] bg-gray-100 '>
       <div className=' mt-3 flex justify-between text-sm text-gray-500 uppercase'>
         <h4 className='mx-3'>Upcoming</h4>
         <p className=' mx-3'> <FaPlus /></p>
@@ -64,7 +64,7 @@ const Nutrition = () => {
         <div className='flex p-3'>
             <h4 className='bg-lime-300 rounded-[40%] w-8 pl-2   pt-1.5 pb-1 font-medium text-[12px]'>Tue <br /> 04</h4>
             <div>
-                <h4 className='font- texmedium text-sm mx-3'>Upper Rush</h4>
+                <h4 className='font-medium text-sm mx-3'>Upper Rush</h4>
                 <p className='mx-3 text-gray-400 text-sm'>06:30 . 55 min</p>
             </div>
         </div>
