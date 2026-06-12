@@ -83,20 +83,20 @@ const fullDetails = {
 
        {
         id:7,
-        title: "Run 50km this month",
+        title: "Squat 200 kg",
         value: "14days",
         icon: FaDumbbell,
-        progress: "32 / 50 km",
-        progressPercentage:"64%", 
+        progress: " 180 / 200 kg",
+        progressPercentage:"90%", 
        },
 
        {
         id:8,
-        title: "Run 50km this month",
+        title: " 30 workouts in Q2",
         value: "14days",
-        icon: FaArrowTrendUp,
-        progress: "32 / 50 km",
-        progressPercentage:"64%", 
+        icon: FaTrophy,
+        progress: "13 / 30 sessions",
+        progressPercentage:"43%", 
        }
  ]
 }

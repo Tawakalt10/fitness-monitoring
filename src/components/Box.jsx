@@ -7,11 +7,11 @@ import PersonalDetails from './pages/PersonalDetails'
 const Box = () => {
   return (
     <div>
-        <div className=' md:pl-8 mb-2 p-4 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1'>
+        <div className=' md:pl-8 mb-2 p-4 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 '>
             {gymInfo.map((boxData) => (
-              <div key={boxData.id} className='w-[300px] h-[150px] mb-4   bg-gray-100 rounded-2xl hover:scale-97 '>
+              <div key={boxData.id} className='w-[90%] h-[150px]   mb-4   bg-gray-100 rounded-2xl hover:scale-97 '>
             <div className='flex justify-between mt-4'>
-            <p className='mx-6 ext-3xl mx-4     bg-gray-300  p-1.5 rounded-2xl'><boxData.icon/></p>
+            <p className='mx-6  mx-4     bg-gray-300  p-1.5 rounded-2xl'><boxData.icon/></p>
             <h4 className='mx-8 text-[10px]  text-gray-500  uppercase'>{boxData.title}</h4>  
            </div>           
            <div className='mx-6'>

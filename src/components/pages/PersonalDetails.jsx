@@ -52,7 +52,7 @@ const bodyComposition = fullDetails.bodyComp.find((item) => item.id === 5);
             <h4 className='mx-5 font-medium'>Body Composition</h4>
             <p className='mx-16 text-gray-400 font-medium'>Entry</p>
            </div>
-        <div className='lg:w-[80%] h-[18rem]  rounded-3xl mt-4 lg:mx-6 bg-gray-100'>
+        <div className='lg:w-[80%] h-[18rem]  rounded-3xl mt-4 lg:mx-6 bg-gray-100  md:m-5 m-6 '>
             <div className='flex justify-between'> 
             
 
@@ -82,15 +82,27 @@ const bodyComposition = fullDetails.bodyComp.find((item) => item.id === 5);
 
         <div>
 
-            <div className='flex justify-between mt-5 cursor-pointer'>
-            <h4 className='mx-5 font-medium'>Active Goals</h4>
-            <p className='mx-16 text-gray-400 font-medium'>Manage</p>
+            <div className='flex justify-between mt-5 cursor-pointer m-6'>
+            <h4 className='font-medium'>Active Goals</h4>
+            <p className=' text-gray-400 font-medium'>Manage</p>
         </div>
         <div>
-            <div className='grid lg:grid-cols-3 md:grid-cols-1'> {fullDetails.activeGoals.map((personalDetailsData) => (
-                <div key={personalDetailsData.id} className='  rounded-3xl  w-[300px] h-[15rem] bg-gray-100'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-1  ml-5 '> {fullDetails.activeGoals.map((personalDetailsData) => (
+                <div key={personalDetailsData.id} className='rounded-3xl w-[320px]  mb-5 h-30 bg-gray-100'>
 
-                    <h4>{personalDetailsData.title}</h4>
+                   <div className='flex  mt-5   font-medium'>
+                     <p className=' lg:mx-3     mx-3  bg-gray-300  p-1.5 rounded-2xl'> <personalDetailsData.icon/></p>
+                      <h4 className='' >{personalDetailsData.title}</h4>   
+                   </div>
+
+                   
+                   <div className='flex justify-between mx-6 lg:mx-13 mt-3'> 
+                    <h4 className='text-gray-500 text-[12px]'> {personalDetailsData.progress} </h4>
+                    <h4 className='text-black  font-medium text-[12px]'>{personalDetailsData.progressPercentage}</h4>
+                   </div>
+
+                      <p className=' mx-6 lg:mx-3 w-[40%] my-4 lg:w-[70%] h-1.5 bg-lime-400 rounded-2xl'></p>
+                  
                 
                 </div>
             ))}
